@@ -8,7 +8,7 @@ const App = () => {
     <div id="main">
       <input id='input' onChange={(e) => setInput(e.target.value)}></input>
       <button id='button' onClick={() => setBlank(input)}>Click</button>
-      <p id='text'> Hello my name is ____ and I study at Newton School</p>
+      <p id='text'> Hello my name is {blank} and I study at Newton School</p>
     </div>
   )
 }
